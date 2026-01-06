@@ -55,6 +55,10 @@ App (orchestrator)
 - `npm run test` - Run Vitest test suite
 - `npm run lint` - ESLint check
 
+### Linting Rules
+- **Unused variables**: Error on unused vars (prefix with `_` to ignore, e.g., `_unusedParam`)
+- **Async functions**: Error on `async` functions that don't use `await`
+
 ### Pre-Commit Checklist
 Before committing changes, always verify:
 - [ ] `npm run lint` passes with no errors
