@@ -1,6 +1,6 @@
 {
   "chat.customAgentInSubagent.enabled": true,
-  "scm.repositories.selectionMode": "single",
+  "scm.repositories.selectionMode": "multiple",
   "chat.promptFilesRecommendations": {
     "setup": "resourceFilename == 'README.md'"
   },
